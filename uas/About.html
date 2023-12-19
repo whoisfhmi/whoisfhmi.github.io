@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>PRX</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+        <div id="header"></div>
+        <div id="navbar">
+            <a href="index.html">Home</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="Contact.html">Contact Us</a>
+            <a href="About.html">About Us</a>
+        </div>
+        <div id="content">
+
+             <!--java-->
+        <script>
+            
+            var Waktu = new Date();
+            var jam   = Waktu.getHours();
+            var menit = Waktu.getMinutes();
+            var tgl   = Waktu.getDate();
+            var bln   = Waktu.getMonth();
+            var thn   = Waktu.getFullYear();
+            var hr    = Waktu.getDay();
+    
+            var bulan = ["jan","feb","mar","apr","mei","jun","jul","ags","sep","okt","nov","DESEMBER"];
+            var hari = ["minggu","senin","selasa","rabu"];
+            
+            
+           /*document.write(""+jam+","+menit+"<br>");*/
+           document.write(""+hari[hr]+", "+tgl+" "+bulan[bln]+" "+thn+"<br>");
+            
+
+            if (jam<=9){
+                document.write("selamat pagi");
+            }else if(jam<=14){
+                document.write("selamat siang");
+            }else if(jam<=17){
+                document.write("selamat sore");
+            }else{
+                document.write("selamat malam");
+            }
+        </script>
+        <!--java-->
+
+           <h2>Forsaken</h2>
+           <img src="f0rseken.jpg">
+           <p>Jason “f0rsaken” Susanto adalah pemain profesional Valorant asal Indonesia yang saat ini mendulang prestasi bersama Paper Rex. Setelah bergabung dengan Paper Rex selama dua tahun, f0rsaken sudah mendapatkan banyak sekali kemenangan dan tentunya mengalahkan banyak sekali tim dari seluruh dunia.
+
+            Penasaran seperti apa profil dan beberapa fakta menarik tentang f0rsaken? Yuk, simak artikel KINCIR berikut ini.</p>
+            <P>Hingga saat ini, f0rsaken sudah banyak sekali menang turnamen-turnamen Valorant bersama Paper Rex. Ia jadi mulai dari turnamen kecil seperti GLHF Open Cup hingga saat ini yang baru dia dapatkan adalah VCT Pacific 2023. emampuan bermain dari f0rsaken tidak dimiliki oleh banyak pemain Valorant. Keberaniannya saat dia mengagetkan musuh dengan melakukan rush adalah sebuah kepercayaan diri yang sangat besar. Saat f0rsaken masih berada di umur 13 tahun, dia sudah bermain untuk Recca Esports, tim Indonesia cabang Counter Strike: Global Offensive. Karena satu dan lain hal Recca Esports harus bubar dan f0rsaken pindah ke rumah barunya, Aerowolf.</P>
+            <p>Pada 2018, f0rsaken memutuskan untuk bergabung dengan BOOM Esports. Di bawah naungan tim ini, ia meraih banyak pencapaian. Pada 2020, penawaran dari JMT Game Team datang untuk f0rsaken. Setelah bergabung selama dua bulan, f0rsaken harus mundur karena masalah internal. Di tahun yang sama, f0rsaken mendapatkan tawaran dari Harley “dsn” Örwall via Facebook untuk bergabung dengan Paper Rex. Mulai saat itu, f0rsaken memutuskan untuk berpindah dari Counter Strike: Global Offensive ke Valorant.</p>
+        </div>
+        <div id="footer">
+            &copy; CopyRight 2023 - Muhamad Fahmi Maulana (231011701068)
+        </div>
+        </div>
+    </body>
+</html>

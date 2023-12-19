@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>PRX</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+        <div id="header"></div>
+        <div id="navbar">
+            <a href="index.html">Home</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="Contact.html">Contact Us</a>
+            <a href="About.html">About Us</a>
+        </div>
+        <div class="wrapper">
+             <!--java-->
+        <script>
+            
+            var Waktu = new Date();
+            var jam   = Waktu.getHours();
+            var menit = Waktu.getMinutes();
+            var tgl   = Waktu.getDate();
+            var bln   = Waktu.getMonth();
+            var thn   = Waktu.getFullYear();
+            var hr    = Waktu.getDay();
+    
+            var bulan = ["jan","feb","mar","apr","mei","jun","jul","ags","sep","okt","nov","DESEMBER"];
+            var hari = ["minggu","senin","selasa","rabu"];
+            
+            
+           /*document.write(""+jam+","+menit+"<br>");*/
+           document.write(""+hari[hr]+", "+tgl+" "+bulan[bln]+" "+thn+"<br>");
+            
+
+            if (jam<=9){
+                document.write("selamat pagi");
+            }else if(jam<=14){
+                document.write("selamat siang");
+            }else if(jam<=17){
+                document.write("selamat sore");
+            }else{
+                document.write("selamat malam");
+            }
+        </script>
+        <!--java-->
+
+            <h1>Galeri Foto</h1>
+           <div class="galeri">
+            <img src="paper rex1.jpg">
+            <p>gambar ke 1</p>
+           </div>
+           <div class="galeri">
+            <img src="paper rex2.jpg">
+            <p>gambar ke 2</p>
+           </div>
+           <div class="galeri">
+            <img src="paper rex3.jpg">
+            <p>gambar ke 3</p>
+           </div>
+           <div class="galeri">
+            <img src="paper rex4.jpg">
+            <p>gambar ke 4</p>
+           </div>
+           <div class="galeri">
+            <img src="paper rex5.jpg">
+            <p>gambar ke 5</p>
+           </div>
+           <div class="galeri">
+            <img src="paper rex6.jpg">
+            <p>gambar ke 6</p>
+           </div>
+           <div class="galeri">
+            <img src="paper rex7.jpg">
+            <p>gambar ke 7</p>
+           </div>
+           <div class="galeri">
+            <img src="paper rex8.jpg">
+            <p>gambar ke 8</p>
+           </div>
+        </div>
+        <div id="footer">
+            &copy; CopyRight 2023 - Muhamad Fahmi Maulana (231011701068)
+        </div>
+    </div>
+    </body>
+</html>

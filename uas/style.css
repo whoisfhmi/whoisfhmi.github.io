@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(43, 67, 49);
+    margin: 0;
+}
+#container{
+    width: 970px;
+    text-align: center;
+    margin: auto;
+}
+#header{
+    width: 960px;
+    height: 250px;
+    background-color: rgb(48, 186, 9);
+    background-image: url(PRX_Esport.png);
+    background-size: 960px 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#navbar{
+    width: 960px;
+    height: 16px;
+    background-color: #808080;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+#navbar a:hover{
+    font-weight: 300;
+    color :blue;
+    background-color: black;
+    padding: 20px;
+}
+#navbar a:link{
+    font-weight: bold;
+    color:blue
+}
+#content{
+    width: 920px;
+    height: auto;
+    background-color: #d7d8e0;
+    padding: 20px 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+#content img{
+    height: auto;
+    width: auto;
+}
+#content h2{
+    font-family: georgia;
+    text-align: center;
+}
+#content p{
+    font-family: georgia;
+    font-size: 16px;
+    text-align: justify;
+}
+img{
+    float: left;
+    margin-right: 15px;
+    width: 20%;
+    height: auto;
+}
+.wrapper{
+    width: 960px;
+    height: 100%;
+    margin: auto;
+    margin-top: 0;
+    background-color: white;
+    text-align: center;
+}
+.galeri{
+    float: left;
+    margin: 10px;
+    margin-left: 10px;
+    width: 200px;
+    border: 5px solid greenyellow;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 14px;
+    font-family: georgia;
+    color: #333;
+}
+img{
+    width:100%;
+    height: 150px;
+}
+input[type=text],input[type=date],textarea,select{
+    width: 100%;
+    background-color: green;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    background-color: #0000FF;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    float: right;
+}
+#footer{
+    height: 35px;
+    width: auto;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-top: 15px;
+}
